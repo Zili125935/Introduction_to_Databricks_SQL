@@ -49,7 +49,7 @@ select *
 from `ilum_prod`.`analytics`.`pbi_customer_360_customer_order_items` 
 where purchase_order_type = 'CTEL' or purchase_order_type = 'ESHO'
 ```
-#### 3. Use count() and distinct to see number of different columns.
+#### 3. Use count( ) and distinct to see number of different columns.
 ##### Example 1 - To know how many different categories ServiceCloud has.
 ```
 select count(distinct category)
